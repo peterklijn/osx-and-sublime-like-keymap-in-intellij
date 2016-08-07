@@ -28,6 +28,11 @@ Tested in IntelliJ IDEA Community 2016.2.1
 - `ctrl + G` Add selection to next occurrence
 - `cmd + D` Duplicate line or selection
 - `cmd + backspace` Delete line
+- `cmd + shift + R` Replace in path
+- `cmd + alt + F` Extract field (refactor)
+- `cmd + P` Parameter info
+- `cmd + alt + E` Explain Scala code, Browse console history
+
 
 ## OSX defaults restored
 
@@ -40,10 +45,15 @@ Tested in IntelliJ IDEA Community 2016.2.1
 - `cmd + D` Add selection for next occurrence
 - `cmd + shift + D` Duplicate line or selection
 - `ctrl + shift + K` Delete line
-
+- `cmd + alt + F` Replace
+- `cmd + shift + R` Navigate to Symbol
+- `cmd + P` Navigate to file
 
 ## Custom stuff
 
 -  `cmd + alt + up` Navigate back
 -  `cmd + alt + down` Jump to source
 
+## Todo
+
+- `cmd + alt + F` Extract field (refactor)

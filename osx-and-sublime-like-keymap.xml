@@ -8,6 +8,7 @@
     <keyboard-shortcut first-keystroke="meta alt up" />
   </action>
   <action id="CompareTwoFiles" />
+  <action id="Console.History.Browse" />
   <action id="Debugger.EditFrameSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -51,13 +52,31 @@
   <action id="Forward">
     <keyboard-shortcut first-keystroke="meta alt right" />
   </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift meta o" />
+    <keyboard-shortcut first-keystroke="meta p" />
+  </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="meta alt o" />
+    <keyboard-shortcut first-keystroke="shift meta r" />
+  </action>
+  <action id="IntroduceField">
+    <keyboard-shortcut first-keystroke="meta alt e" />
+  </action>
   <action id="NextOccurence" />
   <action id="NextProjectWindow" />
   <action id="OpenModuleSettings">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="ParameterInfo" />
   <action id="PreviousOccurence" />
   <action id="PreviousProjectWindow" />
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="meta alt f" />
+    <keyboard-shortcut first-keystroke="meta r" />
+  </action>
+  <action id="ReplaceInPath" />
+  <action id="Scala.Explain" />
   <action id="Scala.RunConsole" />
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="meta d" />
