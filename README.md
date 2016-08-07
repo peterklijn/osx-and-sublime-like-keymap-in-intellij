@@ -51,9 +51,6 @@ Tested in IntelliJ IDEA Community 2016.2.1
 
 ## Custom stuff
 
--  `cmd + alt + up` Navigate back
--  `cmd + alt + down` Jump to source
-
-## Todo
-
-- `cmd + alt + F` Extract field (refactor)
+- `cmd + alt + up` Navigate back
+- `cmd + alt + down` Jump to source
+- `cmd + alt + E` Extract field (refactor)
