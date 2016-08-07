@@ -4,17 +4,19 @@ A keymap, based on the 'default' Mac OS X 10.5 keymap from IntelliJ, which overr
 
 ## Installation instructions
 
-If you have IntelliJ running, close it (completely)
+1. If you have IntelliJ running, close it (completely)
 
-Clone this repository
+2. Clone this repository
+   ```
+   git clone git@github.com:peterklijn/osx-and-sublime-like-keymap-in-intellij.git
+   ```
 
-    git clone git@github.com:peterklijn/osx-and-sublime-like-keymap-in-intellij.git
+3. Symlink the XML file you just cloned to this directory
+   ```
+   ln -s ~/path/to/git/repo/osx-and-sublime-like-keymap.xml ~/Library/Preferences/IdeaIC2016.2/keymaps/. # Or whatever version of IntelliJ you use
+   ```
 
-Symlink the XML file you just cloned to this directory
-
-    ln -s ~/path/to/git/repo/osx-and-sublime-like-keymap.xml ~/Library/Preferences/IdeaIC2016.2/keymaps/. # Or whatever version of IntelliJ you use
-
-Start IntelliJ, go to the preferences (`cmd + ,`), go to Keymap, select 'OSX and Sublime Text' in the list of available keymaps.
+4. Start IntelliJ, go to the preferences (`cmd + ,`), go to Keymap, select 'OSX and Sublime Text' in the list of available keymaps.
 
 Tested in IntelliJ IDEA Community 2016.2.1
 
