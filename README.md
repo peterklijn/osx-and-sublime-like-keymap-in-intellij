@@ -32,7 +32,12 @@ Tested in IntelliJ IDEA Community 2016.2.1
 - `cmd + alt + F` Extract field (refactor)
 - `cmd + P` Parameter info
 - `cmd + alt + E` Explain Scala code, Browse console history
-
+- `cmd + B` Go to definition
+- `ctrl + cmd + up` Navigate to related symbol
+- `cmd + K` Check In Project (VCS)
+- `alt + shift + button1` Add or Remove Caret
+- `cmd + button1` Go to Declaration
+- `alt + button1` Quick Evaluate Expression
 
 ## OSX defaults restored
 
@@ -43,14 +48,22 @@ Tested in IntelliJ IDEA Community 2016.2.1
 ## Sublime defaults added
 
 - `cmd + D` Add selection for next occurrence
+- `cmd + K` Find next /Move to next occurrence
+- `ctrl + cmd + G` Select all occurrences
 - `cmd + shift + D` Duplicate line or selection
 - `ctrl + shift + K` Delete line
 - `cmd + alt + F` Replace
 - `cmd + shift + R` Navigate to Symbol
 - `cmd + P` Navigate to file
+- `ctrl + cmd + up` Move line up
+- `ctrl + cmd + down` Move line down
+- `cmd + button1` Add or Remove Caret
 
 ## Custom stuff
 
 - `cmd + alt + up` Navigate back
 - `cmd + alt + down` Jump to source
 - `cmd + alt + E` Extract field (refactor)
+- `cmd + B` Run
+- `alt + shift + button1` Quick Evaluate Expression
+- `alt + button1` Go to Declaration

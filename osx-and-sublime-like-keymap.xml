@@ -7,6 +7,7 @@
     <keyboard-shortcut first-keystroke="meta alt left" />
     <keyboard-shortcut first-keystroke="meta alt up" />
   </action>
+  <action id="CheckinProject" />
   <action id="CompareTwoFiles" />
   <action id="Console.History.Browse" />
   <action id="Debugger.EditFrameSource">
@@ -27,6 +28,9 @@
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="f4" />
     <keyboard-shortcut first-keystroke="meta alt down" />
+  </action>
+  <action id="EditorAddOrRemoveCaret">
+    <mouse-shortcut keystroke="meta button1" />
   </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
@@ -49,19 +53,36 @@
     <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="FileChooser.GotoDesktop" />
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="meta g" />
+    <keyboard-shortcut first-keystroke="meta k" />
+  </action>
   <action id="Forward">
     <keyboard-shortcut first-keystroke="meta alt right" />
+  </action>
+  <action id="GotoDeclaration">
+    <mouse-shortcut keystroke="button2" />
+    <mouse-shortcut keystroke="alt button1" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift meta o" />
     <keyboard-shortcut first-keystroke="meta p" />
   </action>
+  <action id="GotoRelated" />
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="meta alt o" />
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
   <action id="IntroduceField">
     <keyboard-shortcut first-keystroke="meta alt e" />
+  </action>
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+    <keyboard-shortcut first-keystroke="ctrl meta down" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+    <keyboard-shortcut first-keystroke="ctrl meta up" />
   </action>
   <action id="NextOccurence" />
   <action id="NextProjectWindow" />
@@ -71,11 +92,19 @@
   <action id="ParameterInfo" />
   <action id="PreviousOccurence" />
   <action id="PreviousProjectWindow" />
+  <action id="QuickEvaluateExpression">
+    <keyboard-shortcut first-keystroke="meta alt f8" />
+    <mouse-shortcut keystroke="shift alt button1" />
+  </action>
   <action id="Replace">
     <keyboard-shortcut first-keystroke="meta alt f" />
     <keyboard-shortcut first-keystroke="meta r" />
   </action>
   <action id="ReplaceInPath" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+    <keyboard-shortcut first-keystroke="meta b" />
+  </action>
   <action id="Scala.Explain" />
   <action id="Scala.RunConsole" />
   <action id="SelectNextOccurrence">
