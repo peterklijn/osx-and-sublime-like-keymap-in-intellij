@@ -25,6 +25,8 @@ Tested in IntelliJ IDEA Community 2016.2.1
 - `cmd + down` Jump to source
 - `cmd + alt + up` Navigate to previous occurrence
 - `cmd + alt + down` Navigate to next occurrence
+- `cmd + alt + left` Navigate back
+- `cmd + alt + right` Navigate forward
 - `ctrl + G` Add selection to next occurrence
 - `cmd + D` Duplicate line or selection
 - `cmd + backspace` Delete line
@@ -46,7 +48,8 @@ Tested in IntelliJ IDEA Community 2016.2.1
 - `cmd + backspace` Delete to line start
 
 ## Sublime defaults added
-
+- `cmd + alt + left` Select Previous Tab
+- `cmd + alt + right` Select Next Tab
 - `cmd + D` Add selection for next occurrence
 - `cmd + K` Find next /Move to next occurrence
 - `ctrl + cmd + G` Select all occurrences

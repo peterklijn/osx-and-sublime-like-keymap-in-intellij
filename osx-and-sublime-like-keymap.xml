@@ -4,7 +4,6 @@
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="Back">
-    <keyboard-shortcut first-keystroke="meta alt left" />
     <keyboard-shortcut first-keystroke="meta alt up" />
   </action>
   <action id="CheckinProject" />
@@ -57,9 +56,7 @@
     <keyboard-shortcut first-keystroke="meta g" />
     <keyboard-shortcut first-keystroke="meta k" />
   </action>
-  <action id="Forward">
-    <keyboard-shortcut first-keystroke="meta alt right" />
-  </action>
+  <action id="Forward" />
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="button2" />
     <mouse-shortcut keystroke="alt button1" />
@@ -86,12 +83,22 @@
   </action>
   <action id="NextOccurence" />
   <action id="NextProjectWindow" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl right" />
+    <keyboard-shortcut first-keystroke="meta alt right" />
+  </action>
   <action id="OpenModuleSettings">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="ParameterInfo" />
   <action id="PreviousOccurence" />
   <action id="PreviousProjectWindow" />
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="shift meta open_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl left" />
+    <keyboard-shortcut first-keystroke="meta alt left" />
+  </action>
   <action id="QuickEvaluateExpression">
     <keyboard-shortcut first-keystroke="meta alt f8" />
     <mouse-shortcut keystroke="shift alt button1" />
