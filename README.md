@@ -48,11 +48,13 @@ Tested in IntelliJ IDEA Community 2016.2.1
 - `cmd + backspace` Delete to line start
 
 ## Sublime defaults added
+
 - `cmd + alt + left` Select Previous Tab
 - `cmd + alt + right` Select Next Tab
 - `cmd + D` Add selection for next occurrence
 - `cmd + K` Find next /Move to next occurrence
 - `ctrl + cmd + G` Select all occurrences
+- `cmd + shift + L` Split selection into lines [^issue-split-selection-into-lines]
 - `cmd + shift + D` Duplicate line or selection
 - `ctrl + shift + K` Delete line
 - `cmd + alt + F` Replace
@@ -70,3 +72,7 @@ Tested in IntelliJ IDEA Community 2016.2.1
 - `cmd + B` Run
 - `alt + shift + button1` Quick Evaluate Expression
 - `alt + button1` Go to Declaration
+
+## Known issues
+
+[^issue-split-selection-into-lines]: Split selection into lines (`cmd + shift + L`) actually toggles the 'Column Selection Mode' which means you have to deactivate it after usage.
