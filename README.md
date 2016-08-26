@@ -72,6 +72,7 @@ Tested in IntelliJ IDEA Community 2016.2.1
 - `cmd + B` Run
 - `alt + shift + button1` Quick Evaluate Expression
 - `alt + button1` Go to Declaration
+- `cmd + shift + P` Parameter info
 
 ## Known issues
 
