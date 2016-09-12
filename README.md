@@ -11,7 +11,7 @@ A keymap, based on the 'default' Mac OS X 10.5 keymap from IntelliJ, which overr
    git clone git@github.com:peterklijn/osx-and-sublime-like-keymap-in-intellij.git
    ```
 
-3. Symlink the XML file you just cloned to this directory
+3. Symlink the XML file you just cloned to this directory (create the `keymaps` folder if it doesn't exist)
    ```
    ln -s ~/path/to/git/repo/osx-and-sublime-like-keymap.xml ~/Library/Preferences/IdeaIC2016.2/keymaps/. # Or whatever version of IntelliJ you use
    ```
