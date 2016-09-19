@@ -70,6 +70,7 @@ Tested in IntelliJ IDEA Community 2016.2.1
 - `cmd + alt + down` Jump to source
 - `cmd + alt + E` Extract field (refactor)
 - `cmd + B` Run
+- `cmd + B` Rerun
 - `alt + shift + button1` Quick Evaluate Expression
 - `alt + button1` Go to Declaration
 - `cmd + shift + P` Parameter info
