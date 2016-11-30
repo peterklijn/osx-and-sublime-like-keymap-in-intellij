@@ -63,6 +63,7 @@ Tested in IntelliJ IDEA Community 2016.2.1
 - `ctrl + cmd + up` Move line up
 - `ctrl + cmd + down` Move line down
 - `cmd + button1` Add or Remove Caret
+- `ctrl + cmd + P` Manage projects
 
 ## Custom stuff
 

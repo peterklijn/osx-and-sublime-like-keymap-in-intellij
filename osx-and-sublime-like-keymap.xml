@@ -77,6 +77,9 @@
   <action id="IntroduceField">
     <keyboard-shortcut first-keystroke="meta alt e" />
   </action>
+  <action id="ManageRecentProjects">
+    <keyboard-shortcut first-keystroke="ctrl meta p" />
+  </action>
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="shift alt down" />
     <keyboard-shortcut first-keystroke="ctrl meta down" />
