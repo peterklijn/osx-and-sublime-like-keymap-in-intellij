@@ -13,7 +13,9 @@ A keymap, based on the 'default' Mac OS X 10.5 keymap from IntelliJ, which overr
 
 3. Symlink the XML file you just cloned to this directory (create the `keymaps` folder if it doesn't exist)
    ```
-   ln -s ~/path/to/git/repo/osx-and-sublime-like-keymap.xml ~/Library/Preferences/IdeaIC2016.2/keymaps/. # Or whatever version of IntelliJ you use
+   ln -s \
+     ~/path/to/osx-and-sublime-like-keymap-in-intellij/osx-and-sublime-like-keymap.xml \
+     ~/Library/Application\ Support/JetBrains/<product><version>/keymaps/.
    ```
 
 4. Start IntelliJ, go to the preferences (`cmd + ,`), go to Keymap, select 'OSX and Sublime Text' in the list of available keymaps.
